@@ -3,6 +3,9 @@ const slotModel=require("../model/slotmodel")
 const {isValidObjectId,isValidPincode ,isValidString,isValidPhone,isValidPswd,isValidDate}=require("../validation/validation")
 const jwt = require('jsonwebtoken');
 
+
+
+//=========================================Create a USer=====================================================================>
 const creatuser=async function(req,res){
     try{
         let data=req.body
@@ -41,6 +44,7 @@ const creatuser=async function(req,res){
     }
 }
 
+//<================================================Login User===============================================================================>
 const login=async function(req,res){
     try{
         let data=req.body
@@ -62,6 +66,7 @@ const login=async function(req,res){
     }
 }
 
+//<==============================================Slot Book=========================================================================>
 const slotBook=async function(req,res){         //userId in params
     try{
 
@@ -219,7 +224,7 @@ let totalSecond=vaccineCenter.totalSecond+1
 }
 
 
-
+//===============================================Delete Slot=====================================================>
 const slotDelete=async function(req,res){
     try{
         
@@ -377,4 +382,5 @@ catch(err){
 }
 }
 
+//===============================Module exports=============================>
 module.exports={creatuser,login,slotBook,slotDelete}
