@@ -1,6 +1,6 @@
-Backend Developer Assignment
+##Backend Developer Assignment
 
-Tech Stack: NodeJS, MongoDB
+T###ech Stack: NodeJS, MongoDB
 
 Task Description:
 Develop APIs to access/manage data on MongoDB (should be deployed on Mongodb
@@ -10,7 +10,7 @@ Arogyasetu Cowin part).
 App has the functionality to
 (for user)
 
-● Register user (Mandatory fields: Name, PhoneNumber, Age, Pincode, Aadhar
+###● Register user (Mandatory fields: Name, PhoneNumber, Age, Pincode, Aadhar
 No)
 ● User can login through his PhoneNumber and password (set during registration)
 ● User should be able to see the available time slots on a given day for vaccine
@@ -25,12 +25,12 @@ slot time
 
 (for admin)
 
-● Login using admin credentials (There won’t be any api for registering the admin.
+###● Login using admin credentials (There won’t be any api for registering the admin.
 His credentials should be manually created in the database)
-● Check the total users registered and [filter them by Age/Pincode/Vaccination
+###● Check the total users registered and [filter them by Age/Pincode/Vaccination
 status (none/First dose completed/All completed)] - Optional
 
-● Check the registered slots for the vaccine (first dose /second dose/total) on a
+###● Check the registered slots for the vaccine (first dose /second dose/total) on a
 given day
 Vaccine slot details
 
